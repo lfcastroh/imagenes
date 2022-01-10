@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('image', 'App\Http\Controllers\imagenes@index');
-Route::post('uploadimage','App\Http\Controllers\imagenes@upload');
+Route::post('uploadimage','App\Http\Controllers\imagenes@bg');
 Route::post('redimensionar', 'App\Http\Controllers\imagenes@redimensionar');
